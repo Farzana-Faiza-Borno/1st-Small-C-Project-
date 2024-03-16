@@ -84,7 +84,7 @@ int number=rand()%100 +1;
 int guess;
 
 do{
-    printf("Enter Your Guess:");
+    printf("Enter Your Guess:(1-100)");
 scanf("%d",&guess);
 if(guess<number)
 printf("YOUR GUESS IS LOW\n");
